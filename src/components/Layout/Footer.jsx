@@ -32,10 +32,10 @@ function Footer() {
                     <div>
                         <h2 className="text-lg font-semibold"> Services</h2>
                         <ul>
-                            <li className="my-2 cursor-pointer">Architecture Design</li>
-                            <li className="my-2 cursor-pointer">Interior Design</li>
-                            <li className="my-2 cursor-pointer">Project Management</li>
-                            <li className="my-2 cursor-pointer">Consultation</li>
+                            <li className="my-2 cursor-pointer">Personalized Workout Plans</li>
+                            <li className="my-2 cursor-pointer">Nutrition & Meal Guidance</li>
+                            <li className="my-2 cursor-pointer">Mind & Motivation</li>
+                            <li className="my-2 cursor-pointer">Progress Tracking</li>
                         </ul>
                     </div>
 

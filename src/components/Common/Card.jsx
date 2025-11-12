@@ -1,15 +1,20 @@
-function Card({title,description,image}) {
-    return (
-        <div > 
-        
-            
-            <div className="bg-white rounded-lg shadow-md p-6">
-                {image && <img src={image} alt={title} className="w-full h-70 object-cover mb-4 rounded-md" />}
-                <h3 className="text-xl font-semibold mb-4">{title}</h3>
-                <p className="text-gray-700">{description}</p>
-            </div>
-        </div>
-    )
-}   
+import ProductCard from "./productCard";   
 
-export default Card
+const Card = (props) => {
+    return (
+        <div className=" p-4 ">
+            <ProductCard 
+            image={props.image}
+            name={props.title}
+            description={props.description}
+            dis_price={props.dis_price} 
+            price={props.price} className="text-decoration: line-through text-color-gray-500 justify-center"
+            />
+            
+        </div>
+    );
+}
+
+export default Card;
+
+

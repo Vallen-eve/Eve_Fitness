@@ -8,7 +8,7 @@ function About() {
                 <div className="container mx-auto">
                    
 
-                    <h2 className="text-4xl font-bold text-violet-500 mb-6">Why Choose Us</h2>
+                    <h2 className="text-4xl font-bold text-violet-500 mb-0 py-15o px-15 mx-12">Why Choose Us</h2>
                     <ul className="mt-9 space-y-4 text-gray-700">
                         <li className="text-lg flex items-start  gap-4 mb-2 "> <FaCheck className="text-violet-500 text-lg mr-2" />Stay Motivated:Personalized reminders to keep your fire burning.</li>
                         <li className="text-lg flex items-start  gap-4 mb-2 "><FaCheck className="text-violet-500 text-lg mr-2" />Train Smarter:With customized workout plans, expert guidance, and progress tracking</li >
@@ -19,7 +19,7 @@ function About() {
                 </div>
 
                 <div>
-                    <img src="/bg.jpg" alt="collaboration photo" className="w-full h-100 object-cover rounded-2xl" />
+                    <img src="/about(2).jpg" alt="collaboration photo" className="w-full h-100 object-cover rounded-2xl" />
                 </div>
             </div>
 

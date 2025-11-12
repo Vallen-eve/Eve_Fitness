@@ -45,44 +45,81 @@ function App() {
           <Wrapper className="">
             <Services />
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
               <Card 
-              title="Personalized Workout Plans"
-              description="Transforming homes into personalized sanctuaries that reflect your lifestyle and taste."
-              image="/bg.jpg"
+              image={"card{1}.jpg"}
+              title={"Exercise ball"}
+              description={"Enhance your core strength and stability with our premium exercise ball, perfect for workouts and physical therapy."}
+              dis_price={"30.00"}
+              price={"40.00"}
+              
+             
             />
 
             
             
             <Card 
-              title="Nutrition & Meal Guidance"
-              description="Designing innovative and functional commercial spaces that drive business success."
-              image="/bg.jpg"
+            image={"card{2}.jpg"}
+            title={"Exercise bike"}
+            description={"Elevate your cardio routine with our state-of-the-art exercise bike, designed for comfort and efficiency."}
+            dis_price={"100.00"}
+            price={"250.00"}
+             
             />
 
             <Card 
-              title="Community Challenges"
-              description="Designing innovative and functional commercial spaces that drive business success."
-              image="/bg.jpg"
+            image={"card{3}.jpg"}
+            title={"Exercise Dumbbells"}
+            description={"Empower your strength training with our versatile exercise dumbbells, perfect for all fitness levels."}
+            dis_price={"15.00"}
+            price={"25.00"}
+             
             />
 
             <Card 
-              title="Mind & Motivation"
-              description="Designing innovative and functional commercial spaces that drive business success."
-              image="/bg.jpg"
+            image={"card{4}.jpg"}
+            title={"Exercise Kettlebell"}
+            description={"Elevate your workouts with our durable exercise kettlebell, designed for strength and endurance training."}
+            dis_price={"30.00"}
+            price={"45.00"}
+             
             />
 
             <Card 
-              title="Progress Tracking"
-              description="Designing innovative and functional commercial spaces that drive business success."
-              image="/bg.jpg"
+            image={"card{5}.jpg"}
+            title={"Exercise hex dumbbells"}
+            description={"Elevate your strength training with our premium hex dumbbells, designed for durability and optimal grip."}
+            dis_price={"65.00"}
+            price={"50.00"}
+              
             />
 
-            <Card 
-              title="Progress Tracking"
-              description="Designing innovative and functional commercial spaces that drive business success."
-              image="/bg.jpg"
+            <Card
+            image={"card{7}.jpg"}
+            title={"Exercise Sports Bra"}
+            description={"Your workouts with our supportive and comfortable exercise sports bra, designed for maximum performance."}
+            dis_price={"6.00"}
+            price={"12.00"} 
+             
             />
+            <Card
+            image={"card{8}.jpg"}
+            title={"Gym attire"}
+            description={"Elevate your workout wardrobe with our stylish and comfortable gym attire, designed for optimal performance."}
+            dis_price={"12.00"}
+            price={"18.00"} 
+              
+             
+            />
+            <Card
+            image={"card9.jpg"}
+            title={"Exercise Yoga Mat"}
+            description={""}
+            dis_price={"20.00"}
+            price={"24.60"}
+
+            />
+
             </div>
           
             
