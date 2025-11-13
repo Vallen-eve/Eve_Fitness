@@ -1,10 +1,10 @@
-# FitVibe
+# MOTIVANA
 
 ## Live Demo
 [https://eve-fitness.onrender.com] 
 
 ## Project Overview
-**FitVibe** is a modern fitness website designed to inspire users to stay active and track their progress.  
+**MOTIVANA** is a modern fitness website designed to inspire users to stay active and track their progress.  
 It provides a clean, motivational interface for workouts, health tips, and membership engagement.  
 Built with **React** and **Tailwind CSS**, it focuses on speed, responsiveness, and a consistent user experience across all devices.
 
@@ -16,7 +16,7 @@ Built with **React** and **Tailwind CSS**, it focuses on speed, responsiveness, 
 - **Primary: #6D28D9 (Violet-700)** — Represents strength, balance, and transformation, symbolizing mental and physical wellness.  
 - **Secondary: #C4B5FD (Violet-300)** — Used for background accents and highlights to maintain a friendly, approachable look.  
 - **Accent: #FFFFFF (White)** — Adds contrast and clarity, ensuring all text and visuals stand out cleanly.  
-- **Text: #1E1B4B (Deep Indigo)** — Used for headings and primary text to create strong visual hierarchy.
+- **Text: #1E1B4B (Violet-500)** — Used for headings and primary text to create strong visual hierarchy.
 
 ### Typography
 - **Headings:** `Poppins` — A bold, geometric sans-serif font that conveys energy and confidence, ideal for fitness branding.  
@@ -58,16 +58,16 @@ Built with **React** and **Tailwind CSS**, it focuses on speed, responsiveness, 
 
 ## Image Credits
 - All stock fitness images sourced from **Unsplash** and **Pexels**, free for commercial use.  
-- Illustrations (if used) from **unDraw**.
+  
 
 ---
 
 ## Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/fitvibe.git
+   git clone https://github.com/vallen-eve/fitness.git
 
-   cd fitvibe
+   cd fitness
 
    npm install
 
