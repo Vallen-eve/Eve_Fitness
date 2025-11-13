@@ -15,7 +15,7 @@ const [name, setName] = useState("");
   const handleSignup = async (e) => {
     try {
       e.preventDefault();
-      await axios.post("http://localhost:3000/signup", {
+      await axios.post("https://fitness-backend-xgzy.onrender.com/signup", {
         name,
         email,
         password,
