@@ -1,83 +1,127 @@
 import Slider from "react-slick";
-
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function Display() {
-
   const settings = {
     dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 3,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 3,
-          infinite: true,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+    infinite: true,
+    speed: 600,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2500,
+    arrows: false,
+    pauseOnHover: false,
   };
 
-
   return (
-       
-      <section className="container mx-auto py-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+    <section className="container mx-auto py-16 px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+      {/* LEFT CONTENT */}
+      <div className="text-left">
+        <h3 className="text-4xl md:text-5xl font-extrabold text-violet-600 mb-4 leading-tight">
+          Our Services
+        </h3>
+        <p className="text-lg md:text-xl text-gray-700 mb-8">
+          Discover our unique fitness programs designed to transform your body
+          and mind. From beginner to elite, we have the perfect plan to help you
+          achieve your goals.
+        </p>
+        <button className="px-8 py-3 bg-violet-600 hover:bg-violet-700 text-white text-lg font-semibold rounded-md shadow-md transition">
+          See More
+        </button>
+      </div>
+
+      {/* RIGHT SLIDER */}
+      <div className="w-full">
         <Slider {...settings}>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-               
-            <div className="lg:mt-20">
-                 
-              <h3 className="text-3xl font-bold text-violet-500 md:text-4xl mb-1"> Our Services</h3>
-              <p className="text-lg mb-8 md:text-xl">Checkout our Our unique fitness services that transforms your body and your life. </p>
-              <button className="px-6 py-3 bg-violet-500 text-white rounded-sm">See more</button>
-                
+          {/* Slide 1 */}
+          <div className="px-3"> 
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="/about(3).jpg"
+                alt="Basic Plan"
+                className="w-full h-50 object-cover"
+              />
+              <div className="p-4 bg-white">
+                <h3 className="text-2xl font-bold text-gray-900">Basic</h3>
+                <p className="text-gray-600 mt-2">
+                  Perfect for beginners starting their fitness journey.
+                </p>
+              </div>
             </div>
+          </div>
 
-            <div>
-              <img src="/about(3).jpg" alt="completed bulifing" className="w-full h-50 rounded-2xl my-0 mb-0" />
-              <h3 className="text-xl mt-3 font-bold text-gray-900 ">Basic</h3>
-
+          {/* Slide 2 */}
+          <div className="px-3"> 
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="/m.jpg"
+                alt="Pro Plan"
+                className="w-full h-50 object-cover"
+              />
+              <div className="p-4 bg-white">
+                <h3 className="text-2xl font-bold text-gray-900">Pro</h3>
+                <p className="text-gray-600 mt-2">
+                  Step up your workouts with advanced training options.
+                </p>
+              </div>
             </div>
+          </div>
 
-            <div>
-              <img src="/m.jpg" alt="completed bulifing" className="w-full h-auto rounded-2xl" />
-              <h3 className="text-xl mt-3 font-bold text-gray-900">Pro</h3>
-
+          {/* Slide 3 */}
+          <div className="px-3">
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="/m.jpg"
+                alt="Pro Plan"
+                className="w-full h-50 object-cover"
+              />
+              <div className="p-4 bg-white">
+                <h3 className="text-2xl font-bold text-gray-900">Pro</h3>
+                <p className="text-gray-600 mt-2">
+                  Step up your workouts with advanced training options.
+                </p>
+              </div>
             </div>
+          </div>
 
-            <div>
-              <img src="/one.jpg" alt="completed buliding" className="w-full h-auto rounded-2xl" />
-              <h3 className="text-xl mt-3 font-bold text-gray-900">Elite</h3>
-                
-
+          {/* Slide 4 */}
+          <div className="px-3">
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="/m.jpg"
+                alt="Pro Plan"
+                className="w-full h-50 object-cover"
+              />
+              <div className="p-4 bg-white">
+                <h3 className="text-2xl font-bold text-gray-900">Pro</h3>
+                <p className="text-gray-600 mt-2">
+                  Step up your workouts with advanced training options.
+                </p>
+              </div>
             </div>
-                
+          </div>
+
+          {/* Slide 5 */}
+          <div className="px-3">
+            <div className="rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="/one.jpg"
+                alt="Elite Plan"
+                className="w-full h-50 object-cover"
+              />
+              <div className="p-4 bg-white">
+                <h3 className="text-2xl font-bold text-gray-900">Elite</h3>
+                <p className="text-gray-600 mt-2">
+                  Experience top-tier, personalized training sessions.
+                </p>
+              </div>
+            </div>
           </div>
         </Slider>
-
-      </section>
-      
+      </div>
+    </section>
   );
 }
 

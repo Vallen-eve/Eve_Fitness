@@ -13,6 +13,7 @@ import Footer from './components/Layout/Footer'
 import Stats from './components/Sections/Stats'
 import Signup from './components/Sections/Signup'
 import Login from './components/Sections/Login'
+import Home from './components/Sections/Home'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 
 
@@ -49,7 +50,6 @@ function App() {
               <Card 
               image={"card{1}.jpg"}
               title={"Exercise ball"}
-              description={"Enhance your core strength and stability with our premium exercise ball, perfect for workouts and physical therapy."}
               dis_price={"30.00"}
               price={"40.00"}
               
@@ -61,7 +61,6 @@ function App() {
             <Card 
             image={"card{2}.jpg"}
             title={"Exercise bike"}
-            description={"Elevate your cardio routine with our state-of-the-art exercise bike, designed for comfort and efficiency."}
             dis_price={"100.00"}
             price={"250.00"}
              
@@ -70,7 +69,6 @@ function App() {
             <Card 
             image={"card{3}.jpg"}
             title={"Exercise Dumbbells"}
-            description={"Empower your strength training with our versatile exercise dumbbells, perfect for all fitness levels."}
             dis_price={"15.00"}
             price={"25.00"}
              
@@ -79,7 +77,6 @@ function App() {
             <Card 
             image={"card{4}.jpg"}
             title={"Exercise Kettlebell"}
-            description={"Elevate your workouts with our durable exercise kettlebell, designed for strength and endurance training."}
             dis_price={"30.00"}
             price={"45.00"}
              
@@ -88,7 +85,6 @@ function App() {
             <Card 
             image={"card{5}.jpg"}
             title={"Exercise hex dumbbells"}
-            description={"Elevate your strength training with our premium hex dumbbells, designed for durability and optimal grip."}
             dis_price={"65.00"}
             price={"50.00"}
               
@@ -97,7 +93,6 @@ function App() {
             <Card
             image={"card{7}.jpg"}
             title={"Exercise Sports Bra"}
-            description={"Your workouts with our supportive and comfortable exercise sports bra, designed for maximum performance."}
             dis_price={"6.00"}
             price={"12.00"} 
              
@@ -105,7 +100,6 @@ function App() {
             <Card
             image={"card{8}.jpg"}
             title={"Gym attire"}
-            description={"Elevate your workout wardrobe with our stylish and comfortable gym attire, designed for optimal performance."}
             dis_price={"12.00"}
             price={"18.00"} 
               
@@ -142,6 +136,7 @@ function App() {
 
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/home' element={<Home/>}/>
         
       
 
